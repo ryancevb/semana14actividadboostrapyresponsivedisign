@@ -1,5 +1,71 @@
-@media (min-width: 600px) and (orientation: landscape) {
+/*@media (min-width: 600px) and (orientation: landscape) {
     .navbar {
       background-color: blue;
     }
-};
+};*/
+
+html{
+  margin: 0 0;
+  padding: 0 0;
+  overflow-x: hidden;
+} 
+.navbar{
+background-color:rgb(115, 118, 122);
+} 
+.nav-link, .navbar-brand, #menu{
+  color: white;
+}
+
+.form-control{
+  height: 30px;
+}
+div .col{
+  line-height: 200%;
+  text-align: justify;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.container{
+  width: auto;
+  height: 200px;
+  margin: 0 18vw;
+  padding: 5px;
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+}
+#container1{
+display: flex;
+}
+
+#obj-izq{
+  order: 1;
+  }
+
+#obj-der{
+  order:2;
+}
+
+.col{
+  font-size: 0.85rem;
+}
+
+
+@media only screen and (max-width: 720px) {
+  .list-group {
+    display:none;
+  }
+}
+
+@media only screen and (max-width: 720px) {
+   #opciones{
+    display:flex;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  #opciones{
+   display:none;
+ }
+}

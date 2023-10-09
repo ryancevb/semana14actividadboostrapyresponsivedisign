@@ -1,56 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="styles.css">
-    <title>Como se sale de Roma?</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>Responsive Design</title>
 </head>
+
 <body>
-    <nav class="navbar navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Offcanvas dark navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Link</a>
-                </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Dropdown
-                  </a>
-                  <ul class="dropdown-menu dropdown-menu-dark">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                      <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
-              </ul>
-              <form class="d-flex mt-3" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-success" type="submit">Search</button>
-              </form>
-            </div>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">¿Cómo se sale de Roma?</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item me-5">
+            <a class="nav-link" href="#">Si todos</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="#">los caminos</a>
+          </li>
+          <li class="nav-item me-5">
+            <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              llevan a Roma
+            </a>
+          </li>
+          <div id="opciones" class="dropdown me-5">
+  
+              <a id="menu"class="nav-link dropdown-toggle show" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="true">Opciones</a>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li>
+                <a class="list-group-item list-group-item-action" href="#list-item-1">Opción 1</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-2">Opción 2</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-3">Opción 3</a>
+                <a class="list-group-item list-group-item-action" href="#list-item-4">Opción 4</a>
+            </ul>
+          </div>
+        </ul>
+        </li>
+        </ul>
+        <form class="d-flex mt-2" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+        </form>
+
+      </div>
+    </div>
+    </div>
+    </div>
+  </nav>
+  <br>
+  <div class="d-flex justify-content-center">
+    <div id="title">
+      <h4>¿Cómo se sale de Roma?</h4>
+    </div>
+  </div>
+  <div class="d-flex justify-content-center">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h6>...a veces pensamos demasiado y sentimos muy poco</h6>
+        </div>
+        <div class="carousel-item">
+          <h6>...cuando alguien nos dedica su tiempo, nos está regalando lo único que no recuperará jamás </h6>
+        </div>
+        <div class="carousel-item">
+          <h6>...los pequeños detalles son los que hacen las grandes cosas </h6>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div id="container1">
+    <div class="w-100">
+      <div class="container text-center" id="obj-der">
+        <div class="row row-cols-3 g-2">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-body-secondary">
+            Si todos los caminos llevan a Roma, ¿Cómo se sale de Roma? A veces pensamos demasiado y sentimos muy poco.
+            Mi
+            abuelo siempre me decía que si alguien quiere seriamente formar parte de tu vida hará lo imposible para
+            estar
+            en ella...
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-body-secondary">
+            Aunque, en cierto modo, perdamos entre pantallas el valor de las miradas, olvidando que cuando alguien nos
+            dedica su tiempo nos
+            está regalando lo único que no recuperará jamás...
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-body-secondary">
+            Y es que la vida son momentos,¿Sabes? Yo ahora estoy aquí y mañana, mañana no lo sé. Así que quería decirte
+            que si alguna vez quieres algo, si quieres algo de verdad, ve por ello sin mirar
+            atrás...
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-body-secondary">
+            Mirando al miedo de frente y a los ojos, entregando todo y dando el alma, sacando al niño que llevas dentro,
+            ese que cree en los imposibles y que daría la luna por tocar una estrella. Así que no sé que será de mi
+            mañana
+            pero este sol siempre va a ser el mismo que el tuyo...
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-body-secondary">Porque los amigos son la familia que elegimos
+            y yo te elijo a ti. Te elijo a ti por ser el dueño de las arrugas que
+            tendré en los labios de vieja, y apuesto fuerte por todos estos años a tu lado. Por las noches en vela, las
+            fiestas, las risas, los secretos y los amores del pasado...
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-body-secondary">Tus abrazos así porque
+            sí, sin venir a cuento, ni tener por qué celebrar algo y es que en este tiempo me he dado cuenta de que los
+            pequeños detalles son los que
+            hacen las grandes cosas y tú has hecho infinito mi límite...
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-body-secondary">Y te doy las gracias por ser la única persona
+            capaz de hacerme
+            llorar de la risa, por aparecer en mi vida con esa sonrisa loca, por ese brillo en los ojos capaz de pelear
+            contra un millón de tsunamis. Así que no, no sé dónde estaremos dentro de diez años, no sé cómo se sale de
+            Roma...
+          </div>
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 bg-body-secondary"> Pero te prometo que pase lo que pase, estés
+            donde estés voy a acordarme de ti toda la vida y por eso mi luna
+            va a estar siempre contigo, porque tú me enseñaste a vivir cada día cómo el primer día del resto de mi vida
+            y
+            eso, eso no lo voy a olvidar a nunca...
           </div>
         </div>
-      </nav>
-    
+      </div>
+      <br>
+      <div class="w-50">
+        <div class="col-4" class="row" id="obj-izq">
+          <div id="list-example" class="list-group">
+            <a class="list-group-item list-group-item-action" href="#list-item-1">Opción 1</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-2">Opción 2</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-3">Opción 3</a>
+            <a class="list-group-item list-group-item-action" href="#list-item-4">Opción 4</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
 </body>
+
 </html>
